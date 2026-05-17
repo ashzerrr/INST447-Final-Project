@@ -17,9 +17,7 @@
 
 7. Install the dependencies from the requirements.txt file using `pip install -r requirements.txt`.
 
-7.5. Check that quarto is installed in the environment using `quarto -v` in the terminal. If it isn’t installed, install it using `brew install --cask quarto` for MacOS if you have Homebrew. Otherwise, you can install it from this [website](https://quarto.org/docs/get-started). You may have to restart Positron and your terminal.
-
-Quarto install instructions:
+8. Check that quarto is installed in the environment using `quarto -v` in the terminal. If it isn’t installed, install it using `brew install --cask quarto` for MacOS if you have Homebrew. Otherwise, you can install it from this [website](https://quarto.org/docs/get-started) or using these instructions:
 
 Copy and paste this in the command line if you are on linux to install quarto
 ```
@@ -35,6 +33,9 @@ sudo apt-get install -f
 # Verify
 quarto --version
 ```
+You may have to restart Positron and your terminal after.
+
+9. Also check that jupyter is installed using `jupyter --version`. If it isn't, run `python3 -m pip install jupyter` in the terminal.
 
 Then you can run these commands:
 
