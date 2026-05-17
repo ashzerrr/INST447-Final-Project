@@ -37,7 +37,7 @@ You may have to restart Positron and your terminal after.
 
 9. Also check that jupyter is installed using `jupyter --version`. If it isn't, run `python3 -m pip install jupyter` in the terminal.
 
-Then you can run these commands:
+10. Then you can run these commands:
 
 ```
 quarto preview inst447-group10-final-submission.qmd
