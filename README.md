@@ -40,3 +40,31 @@ Finally, run main.py
 python main.py
 ```
 
+Quarto install instructions:
+
+Copy and paste this in the command line if you are on linux to install quarto
+```
+# Get the latest .deb
+wget https://quarto.org/download/latest/quarto-linux-amd64.deb
+
+# Install it
+sudo dpkg -i quarto-linux-amd64.deb
+
+# Fix any missing deps if needed
+sudo apt-get install -f
+
+# Verify
+quarto --version
+```
+
+Then you can run these commands:
+
+```
+quarto preview inst447-group10-final-submission.qmd
+```
+
+or:
+
+```
+quarto render inst447-group10-final-submission.qmd
+```
