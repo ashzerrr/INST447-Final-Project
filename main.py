@@ -271,8 +271,8 @@ if __name__ == "__main__":
     
      # Set start and end dates, in our case we will use May 01 - May 02
    
-    start_date = "2026-05-01"
-    end_date = "2026-05-08"
+    start_date = "2026-04-01"
+    end_date = "2026-05-01"
     symbol = "AAPL"
 
 
