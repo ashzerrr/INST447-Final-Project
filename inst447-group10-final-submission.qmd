@@ -31,6 +31,8 @@ Load environment variables:
 ```{python}
 load_dotenv()
 ```
+# Extra Mile Details
+Our extra mile points went into the extraction and merging code and data visualization portions of the project. Starting with the extraction, we had to go the extra mile by using two APIs to collect the data for our dataset rather than having a .csv file ready to be loaded into a DataFrame right away. This meant we had to take additional steps to figure out what the APIs returned and how to best extract the parts we wanted from what was returned. Our goal for the extraction portion was to combine news data and finance data together so we could use it further down the process for comparison stats. Regarding the data visualization portion, we had to put extra effort in ensuring that all 11 variables had a visualization, especially when we realized later on that one of the earlier functions wasn’t used, and that meaningful relationships were being captured. Our goal with the visualizations was to extract insights from the data about how market sentiment related to daily trade volume, or if it had any relation to begin with.
 
 # Source(s) & Extraction
 
@@ -483,8 +485,6 @@ def multiday_financial_news_sentiment_pipeline(symbol, start_date, end_date, sen
 
            final_dataset.append(article)
            # print(article.keys()) --> {'ticker', 'headline', 'summary', 'text', 'source', 'date', 'sentiment', 'sen_confidence'}
-          
-  
   
    return [final_dataset, transformed_dataset]
 
